@@ -199,7 +199,7 @@ span{
 }
 @keyframes cursor{
   to{
-    border-left: 2px solid var(--main-color) !important;
+    border-left: 2px solid var(--main-color);
   }
 }
 @keyframes words{
@@ -235,7 +235,7 @@ span{
   75%;
   90%;
   95%;{
-    width: 0 !important;
+    width: 0;
   }
   5%;
   20%;
@@ -245,6 +245,6 @@ span{
   60%;
   80%;
   85%;{
-    width: calc(100% + 8px) !important;
+    width: calc(100% + 8px);
   }
 }
