@@ -120,7 +120,7 @@ span{
   max-width: 1000px;
 }
 .social-icons a{
-  display: inline-flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center;
   width: 4.5rem;
