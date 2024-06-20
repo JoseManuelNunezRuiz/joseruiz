@@ -188,7 +188,7 @@ span{
   animation: words 20s infinite !important;
 }
 .text-animation span::after{
-  content: '';
+  content: '' !important;
   background-color: var(--bg-color) !important;
   position: absolute !important;
   width: calc(100% + 8px) !important;
@@ -199,7 +199,7 @@ span{
 }
 @keyframes cursor{
   to{
-    border-left: 2px solid var(--main-color);
+    border-left: 2px solid var(--main-color) !important;
   }
 }
 @keyframes words{
@@ -235,7 +235,7 @@ span{
   75%;
   90%;
   95%;{
-    width: 0;
+    width: 0 !important;
   }
   5%;
   20%;
@@ -245,6 +245,6 @@ span{
   60%;
   80%;
   85%;{
-    width: calc(100% + 8px);
+    width: calc(100% + 8px) !important;
   }
 }
