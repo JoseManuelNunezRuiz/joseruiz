@@ -121,7 +121,7 @@ span{
 }
 .social-icons a{
   display: inline-flex;
-  justofy-content: center;
+  justify-content: center;
   align-items: center;
   width: 4.5rem;
   height: 4.5rem;
