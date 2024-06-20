@@ -174,18 +174,18 @@ span{
   color: black !important;
 }
 .text-animation{
-  font-size: 34px !important;
-  font-weight: 600 !important;
-  min-width: 280px !important;
+  font-size: 34px;
+  font-weight: 600;
+  min-width: 280px;
   
 }
 .text-animation span{
-  postion: relative !important;
+  postion: relative;
 }
 .text-animation span::before{
-  content: 'Analista de datos' !important;
-  color: var(--main-color) !important;
-  animation: words 20s infinite !important;
+  content: 'Analista de datos';
+  color: var(--main-color);
+  animation: words 20s infinite;
 }
 .text-animation span::after{
   content: '';
